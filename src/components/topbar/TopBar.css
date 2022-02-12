@@ -14,11 +14,9 @@
 .topbar-right {
     flex: 3;
     /* occupy 3 columns from total of 12 */
-    background-color: aliceblue;
 }
 
 .topbar-center {
     flex: 6;
     /* occupy 6 columns from total of 12 */
-    background-color: blue;
 }
