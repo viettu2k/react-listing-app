@@ -1,0 +1,7 @@
+.topbar {
+    width: 100%;
+    height: 45px;
+    background-color: blueviolet;
+    position: sticky;
+    top: 0;
+}
