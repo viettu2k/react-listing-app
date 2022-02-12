@@ -6,13 +6,28 @@ export default function TopBar() {
   return (
     <div className="topbar">
       <div className="topbar-left">
-        <i class="fab fa-instagram-square"></i>
-        <i class="fab fa-facebook-square"></i>
-        <i class="fab fa-linkedin"></i>
-        <i class="fab fa-twitter-square"></i>
+        <i className="topbar-social fab fa-instagram-square"></i>
+        <i className="topbar-social fab fa-facebook-square"></i>
+        <i className="topbar-social fab fa-linkedin"></i>
+        <i className="topbar-social fab fa-twitter-square"></i>
       </div>
-      <div className="topbar-center"></div>
-      <div className="topbar-right">Right</div>
+      <div className="topbar-center">
+        <ul className="topbar-list">
+          <li className="topbar-list-item">HOME</li>
+          <li className="topbar-list-item">ABOUT</li>
+          <li className="topbar-list-item">CONTACT</li>
+          <li className="topbar-list-item">CREATING LISTING</li>
+          <li className="topbar-list-item">LOGOUT</li>
+        </ul>
+      </div>
+      <div className="topbar-right">
+        <img
+          className="topbar-profile"
+          src="https://images.pexels.com/photos/2269872/pexels-photo-2269872.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+          alt=""
+        />
+        <i className="topbar-search fas fa-search"></i>
+      </div>
     </div>
   );
 }
