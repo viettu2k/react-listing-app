@@ -1,0 +1,26 @@
+.header-section {
+    margin-top: 50px;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    /* we want columns on top of other */
+    align-items: center;
+    /* here align item will horizontally make items center becz its flex direction */
+    font-family: "Nunito Sans", sans-serif;
+    color: #fff;
+    font-style: italic;
+}
+
+.hero-text-title {
+    position: absolute;
+    top: 22%;
+    font-size: 90px;
+}
+
+.hero-text-subtitle {
+    position: absolute;
+    top: 20%;
+    font-size: 22px;
+}
