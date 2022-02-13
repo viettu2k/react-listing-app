@@ -39,3 +39,15 @@
     color: rgb(146, 145, 143);
     margin-top: 10px;
 }
+
+.listing-description {
+    color: rgb(87, 86, 85);
+    line-height: 22px;
+    margin-top: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    /* show only 4 lines after that show ... */
+    -webkit-box-orient: vertical;
+}

@@ -17,11 +17,13 @@ export default function ListingItem() {
         <span className="listing-title">Awesome property available.</span>
         <hr />
         <span className="listing-time">2 days ago</span>
-        <p className="listing-description">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem iusto
-          similique illo laudantium, nam reiciendis? Inventore, eius similique
-        </p>
       </div>
+      <p className="listing-description">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem iusto
+        similique illo laudantium, nam reiciendis? Inventore, eius similique
+        doloremque vel, quisquam minima iure architecto iusto voluptatibus
+        neque, illum odio deleniti.
+      </p>
     </div>
   );
 }

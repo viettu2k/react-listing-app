@@ -13,8 +13,6 @@ export default function Sidebar() {
         />
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem iusto
-          similique illo laudantium, nam reiciendis? Inventore, eius similique
-          doloremque vel, quisquam minima iure architecto iusto voluptatibus
           neque, illum odio deleniti.
         </p>
       </div>

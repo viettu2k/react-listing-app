@@ -1,4 +1,8 @@
 .listing-section {
     flex: 9;
     /* occupy 9 parts from total of 12 parts so that sidebar section can take 3 parts */
+    display: flex;
+    flex-wrap: wrap;
+    /* try to equally plea the children on the same row based on total width and height */
+    margin: 20px;
 }

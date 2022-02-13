@@ -9,6 +9,9 @@ export default function Listing() {
       <ListingItem />
       <ListingItem />
       <ListingItem />
+      <ListingItem />
+      <ListingItem />
+      <ListingItem />
     </div>
   );
 }
