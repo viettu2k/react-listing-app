@@ -53,3 +53,19 @@
     text-align: center;
     cursor: pointer;
 }
+
+.sidebar-social-icons {
+    margin-top: 12px;
+    width: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar-social-icon {
+    margin-right: 12px;
+    cursor: pointer;
+    /* shows hand on hover over the icon */
+    font-size: 22px;
+    color: #00b386;
+}

@@ -30,7 +30,7 @@ export default function Sidebar() {
         </ul>
       </div>
       <div className="sidebar-subsection">
-        <span className="sidebar-title">follow us on:</span>
+        <span className="sidebar-title">follow us</span>
         <div className="sidebar-social-icons">
           <i className="sidebar-social-icon fab fa-instagram-square"></i>
           <i className="sidebar-social-icon fab fa-facebook-square"></i>
