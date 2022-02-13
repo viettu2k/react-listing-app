@@ -38,5 +38,27 @@
     cursor: pointer;
     /* shows hand on hover over the icon */
     font-size: 22px;
-    color: rgb(42, 209, 145);
+    color: #00b386;
+}
+
+.topbar-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    /* get rid of dots from the li tag */
+}
+
+.topbar-list-item {
+    margin-right: 22px;
+    cursor: pointer;
+}
+
+.topbar-search {
+    color: #00b386;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 20px;
 }
