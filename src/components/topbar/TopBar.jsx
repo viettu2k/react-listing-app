@@ -6,10 +6,10 @@ export default function TopBar() {
   return (
     <div className="topbar">
       <div className="topbar-left">
-        <i className="topbar-social fab fa-instagram-square"></i>
-        <i className="topbar-social fab fa-facebook-square"></i>
-        <i className="topbar-social fab fa-linkedin"></i>
-        <i className="topbar-social fab fa-twitter-square"></i>
+        <i className="topbar-social-icon fab fa-instagram-square"></i>
+        <i className="topbar-social-icon fab fa-facebook-square"></i>
+        <i className="topbar-social-icon fab fa-linkedin"></i>
+        <i className="topbar-social-icon fab fa-twitter-square"></i>
       </div>
       <div className="topbar-center">
         <ul className="topbar-list">
@@ -22,7 +22,7 @@ export default function TopBar() {
       </div>
       <div className="topbar-right">
         <img
-          className="topbar-profile"
+          className="topbar-profile-pic"
           src="https://images.pexels.com/photos/2269872/pexels-photo-2269872.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
           alt=""
         />

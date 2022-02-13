@@ -1,12 +1,12 @@
 .topbar {
     width: 100%;
     height: 45px;
-    background-color: rgb(238, 176, 43);
+    background-color: rgb(235, 219, 186);
     position: sticky;
     top: 0;
     display: flex;
     align-items: center;
-    /* algin item vertically center */
+    /* algin item/content inside this parent vertically center */
     font-family: "Ubuntu", sans-serif;
 }
 
@@ -14,9 +14,29 @@
 .topbar-right {
     flex: 3;
     /* occupy 3 columns from total of 12 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .topbar-center {
     flex: 6;
     /* occupy 6 columns from total of 12 */
+}
+
+.topbar-profile-pic {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    /* it will make the img as circle */
+    object-fit: cover;
+    /* it will resize the img or video to fit the container size i.e here is 45px by 45px */
+}
+
+.topbar-social-icon {
+    margin-right: 12px;
+    cursor: pointer;
+    /* shows hand on hover over the icon */
+    font-size: 22px;
+    color: rgb(42, 209, 145);
 }
