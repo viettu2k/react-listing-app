@@ -1,5 +1,9 @@
 .sidebar-section {
-    background-color: blueviolet;
     flex: 3;
     /* occupy 3 parts from total 12 parts so that listing section can take 9 parts */
+}
+
+.sidebar-img {
+    width: 200px;
+    height: 200px;
 }
