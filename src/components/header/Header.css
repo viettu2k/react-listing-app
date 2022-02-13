@@ -5,7 +5,7 @@
     align-items: center;
     /* here align item will horizontally make items center becz its flex direction */
     font-family: "Nunito Sans", sans-serif;
-    color: #00b386;
+    color: var(--primary-color);
     font-style: italic;
     text-transform: capitalize;
 }
