@@ -1,0 +1,5 @@
+.listing-section {
+    background-color: crimson;
+    flex: 9;
+    /* occupy 9 parts from total of 12 parts so that sidebar section can take 3 parts */
+}
