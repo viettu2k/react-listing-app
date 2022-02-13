@@ -40,3 +40,16 @@
     padding: 24px;
     text-align: center;
 }
+
+.sidebar-categories {
+    list-style: none;
+    margin-bottom: 25px;
+}
+
+.sidebar-category {
+    display: inline-block;
+    width: 50%;
+    margin-top: 12px;
+    text-align: center;
+    cursor: pointer;
+}
