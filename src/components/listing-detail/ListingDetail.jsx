@@ -6,6 +6,7 @@ export default function ListingDetail() {
     <div className="listing-detail">
       <div className="listing-detail-content">
         <img
+          className="listing-detail-img"
           src="https://images.pexels.com/photos/2606383/pexels-photo-2606383.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
           alt=""
         />
