@@ -1,9 +1,35 @@
 .sidebar-section {
     flex: 3;
     /* occupy 3 parts from total 12 parts so that listing section can take 9 parts */
+    margin: 20px;
+    padding-bottom: 32px;
+    background-color: rgb(247, 236, 222);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar-subsection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar-title {
+    text-transform: uppercase;
+    margin: 12px;
+    padding: 6px;
+    border-top: 1px solid #00b386;
+    border-bottom: 1px solid #00b386;
+    font-family: "Raleway", sans-serif;
+    line-height: 22px;
+    font-weight: 700;
 }
 
 .sidebar-img {
     width: 200px;
     height: 200px;
+    object-fit: cover;
+    border-radius: 6px;
 }

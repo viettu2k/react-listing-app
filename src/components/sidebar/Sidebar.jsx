@@ -7,7 +7,7 @@ export default function Sidebar() {
       <div className="sidebar-subsection">
         <span className="sidebar-title">about me</span>
         <img
-          className="sidebar-"
+          className="sidebar-img"
           src="https://images.pexels.com/photos/2269872/pexels-photo-2269872.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
           alt=""
         />
