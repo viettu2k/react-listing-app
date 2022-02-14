@@ -16,7 +16,7 @@ export default function TopBar() {
           <li className="topbar-list-item">HOME</li>
           <li className="topbar-list-item">ABOUT</li>
           <li className="topbar-list-item">CONTACT</li>
-          <li className="topbar-list-item">CREATING LISTING</li>
+          <li className="topbar-list-item">CREATING PROPERTY</li>
           <li className="topbar-list-item">LOGOUT</li>
         </ul>
       </div>
