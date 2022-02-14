@@ -1,5 +1,6 @@
 import React from "react";
 import "./TopBar.css";
+import { Link } from "react-router-dom";
 
 // React component returns JSX kind or markup
 export default function TopBar() {
@@ -13,10 +14,14 @@ export default function TopBar() {
       </div>
       <div className="topbar-center">
         <ul className="topbar-list">
-          <li className="topbar-list-item">HOME</li>
+          <li className="topbar-list-item">
+            <Link to="/">HOME</Link>
+          </li>
           <li className="topbar-list-item">ABOUT</li>
           <li className="topbar-list-item">CONTACT</li>
-          <li className="topbar-list-item">CREATING PROPERTY</li>
+          <li className="topbar-list-item">
+            <Link to="/create">CREATING PROPERTY</Link>
+          </li>
           <li className="topbar-list-item">LOGOUT</li>
         </ul>
       </div>
