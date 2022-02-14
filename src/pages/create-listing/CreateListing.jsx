@@ -13,7 +13,7 @@ export default function CreateListing() {
             placeholder="Property title"
           />
           <label className="create-listing-img-upload" htmlFor="listingImg">
-            Upload Image <i class="fas fa-upload"></i>
+            <i class="upload-icon fas fa-upload"></i>
           </label>
           <input type="file" id="listingImg" style={{ display: "none" }} />
         </div>
@@ -24,6 +24,7 @@ export default function CreateListing() {
           ></textarea>
         </div>
       </form>
+      <button className="create-listing-button">Submit</button>
     </div>
   );
 }
