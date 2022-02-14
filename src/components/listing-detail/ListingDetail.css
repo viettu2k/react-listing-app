@@ -51,3 +51,10 @@
     color: rgb(117, 110, 102);
     margin-bottom: 22px;
 }
+
+.listing-detail-description {
+    line-height: 26px;
+    /* vertical gap between two lines */
+    font-size: 16px;
+    color: rgb(46, 42, 42);
+}
