@@ -42,3 +42,12 @@
     /* target the 2nd action button  */
     color: orange;
 }
+
+.listing-detail-meta-info {
+    display: flex;
+    justify-content: space-between;
+    /* give equal space between the child items */
+    font-size: 18px;
+    color: rgb(117, 110, 102);
+    margin-bottom: 22px;
+}
