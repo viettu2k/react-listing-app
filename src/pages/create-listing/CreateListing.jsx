@@ -1,18 +1,18 @@
 import React from "react";
 import "./CreateListing.css";
 
-export default function CreateListing() {
+function CreateListing() {
   return (
     <div className="create-listing">
       <form className="create-listing-form">
         <div className="create-listing-form-group">
           <input
-            autofocus={true}
-            className="create-listing-text"
+            autoFocus={true}
             type="text"
             placeholder="Property title"
+            className="create-listing-text"
           />
-          <label className="create-listing-img-upload" htmlFor="listingImg">
+          <label htmlFor="listingImg" className="create-listing-img-upload">
             <i class="upload-icon fas fa-upload"></i>
           </label>
           <input type="file" id="listingImg" style={{ display: "none" }} />
@@ -28,3 +28,5 @@ export default function CreateListing() {
     </div>
   );
 }
+
+export default CreateListing;
