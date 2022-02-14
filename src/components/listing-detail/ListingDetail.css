@@ -12,3 +12,33 @@
     object-fit: cover;
     border-radius: 5px;
 }
+
+.listing-detail-title {
+    text-align: center;
+    font-size: 38px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    margin: 10px 0px;
+    /* margin on y-axis = 10px and on x-axis = 0px*/
+}
+
+.listing-detail-action {
+    float: right;
+    font-size: 30px;
+}
+
+.listing-detail-action-icon {
+    font-size: 24px;
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+.listing-detail-action-icon:first-child {
+    /* target the 1st action button  */
+    color: var(--primary-color);
+}
+
+.listing-detail-action-icon:last-child {
+    /* target the 2nd action button  */
+    color: orange;
+}
