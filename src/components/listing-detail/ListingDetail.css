@@ -58,3 +58,11 @@
     font-size: 16px;
     color: rgb(46, 42, 42);
 }
+
+.listing-detail-description:first-letter {
+    /* target the 1st letter */
+    margin-left: 15px;
+    font-size: 26px;
+    font-weight: 650;
+    color: var(--primary-color);
+}
