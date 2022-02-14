@@ -1,12 +1,13 @@
 import React from "react";
 import "./ListingItem.css";
+import { Link } from "react-router-dom";
 
-export default function ListingItem() {
+function ListingItem() {
   return (
     <div className="listing-item">
       <img
         className="listing-img"
-        src="https://images.pexels.com/photos/2606383/pexels-photo-2606383.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+        src="https://images.pexels.com/photos/186077/pexels-photo-186077.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
         alt=""
       />
       <div className="listing-details">
@@ -14,16 +15,21 @@ export default function ListingItem() {
           <span className="listing-category">Buy</span>
           <span className="listing-category">Sell</span>
         </div>
-        <span className="listing-title">Awesome property available.</span>
+        <Link to="/detail/1">
+          <span className="listing-title">Awesome property</span>
+        </Link>
         <hr />
         <span className="listing-time">2 days ago</span>
       </div>
       <p className="listing-description">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem iusto
-        similique illo laudantium, nam reiciendis? Inventore, eius similique
-        doloremque vel, quisquam minima iure architecto iusto voluptatibus
-        neque, illum odio deleniti.
+        Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in
+        laying out print, graphic or web designs.Lorem ipsum, or lipsum as it is
+        sometimes known, is dummy text used in laying out print, graphic or web
+        designs.Lorem ipsum, or lipsum as it is sometimes known, is dummy text
+        used in laying out print, graphic or web designs
       </p>
     </div>
   );
 }
+
+export default ListingItem;
